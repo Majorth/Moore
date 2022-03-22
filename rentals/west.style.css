@@ -1,0 +1,27 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    display: block;
+
+}
+title { 
+    display: none;
+}
+
+body {
+    display: block;
+    font-family: Raleway, serifs;
+}
+#header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    background-color: lightskyblue;
+
+}
+
+#brothers {
+    font-size: 4rem;
+}

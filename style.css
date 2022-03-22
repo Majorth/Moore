@@ -1,0 +1,72 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+body {
+    display: block;
+    font-family: Raleway, serifs;
+}
+
+title { 
+    display: none;
+}
+#header {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    background-color: lightskyblue;
+
+}
+
+#brothers {
+    font-size: 4rem;
+}
+
+#trailer {
+    display: flex;
+    margin: 0 auto;
+    width: 75%;
+    padding: 15px;
+    
+   
+}
+img {
+    width: 100%;
+    height: auto;
+
+}
+#subheader {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px black solid;
+    background-color: lightgrey;
+    word-spacing: normal;
+    row-gap: 2 rem;
+    letter-spacing: 0.6px;
+}
+#subheader2 {
+    text-align: center;
+    padding: 10px;
+   border-top: 1px black solid;
+   border-bottom: 1px black solid;
+   background-color: lightgrey;
+   letter-spacing: 0.6px;
+}
+#rentals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  
+}
+#eastside, #westside, #northside, #southside {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}

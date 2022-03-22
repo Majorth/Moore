@@ -1,0 +1,68 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    display: block;
+
+}
+title { 
+    display: none;
+}
+
+body {
+  
+    font-family: Raleway, serifs;
+}
+#header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    background-color: lightskyblue;
+    border-bottom: solid black 1px;
+
+}
+
+#brothers {
+    font-size: 4rem;
+}
+
+#banner {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+#main { 
+    text-align: center;
+    padding-top: 15px;
+}
+#eastsiderentals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+ 
+    background-color: none;
+  
+}
+.address1, .address2 {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#description {
+    padding: 15px;
+
+}
+img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+
+
+}
