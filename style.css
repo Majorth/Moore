@@ -12,6 +12,9 @@ body {
 title { 
     display: none;
 }
+link {
+    display: none;
+}
 #header {
     max-width: 100%;
     display: flex;
@@ -31,7 +34,7 @@ title {
     margin: 0 auto;
     width: 75%;
     padding: 15px;
-    
+
    
 }
 img {
