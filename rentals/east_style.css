@@ -1,7 +1,7 @@
 *, ::after, ::before {
     margin: 0;
     padding: 0;
-    display: block;
+   
 
 }
 title { 
@@ -63,6 +63,22 @@ img {
     width: 100%;
     height: auto;
     padding: 10px;
+   
 
 
+}
+#button {
+    font-size: 1.5rem;
+    color: red;
+ 
+}
+
+#east1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul {
+    list-style-type: none;
 }

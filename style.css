@@ -34,12 +34,14 @@ link {
     margin: 0 auto;
     width: 75%;
     padding: 15px;
+    
 
    
 }
 img {
     width: 100%;
     height: auto;
+    
 
 }
 #subheader {
@@ -72,4 +74,10 @@ img {
     text-align: center;
     font-weight: bold;
 
+}
+
+#button {
+    font-size: 1.5rem;
+    color: red;
+ 
 }
